@@ -1,3 +1,4 @@
-# chemicalRenderer
+# Chemical Parser
 
-A simplified library that converts organic chemicals into chemical structures according to IUPAC nomenclature
+This python package can parse standard IUPAC chemical formule and turn them into svgs
+

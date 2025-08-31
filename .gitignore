@@ -1,4 +1,4 @@
 generated-icon.png
 pyproject.toml
 uv.lock
-.replit
+/__pycache__
