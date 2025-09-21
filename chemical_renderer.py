@@ -1,3 +1,14 @@
+""" ==========================================================
+File:        chemical_renderer.py
+Description: A python module that can convert standard IUPAC
+               chemical formulae and turn them into svgs.
+Maintainer:  nawab-as <support@nawab-as.software>
+License:     MIT, see LICENSE for more details.
+==========================================================="""
+
+# For refrence, all of the organic chemistry in the comments
+# will be according to IUPAC nomenclature.
+
 import re as regex
 prefixes = ['METH', 'ETH', 'PROP', 'BUT', 'PENT', 'HEX', 'HEPT', 'OCT', 'NON']
 #prefixes_re = "(" + "|".join(prefixes) + ")"
@@ -7,9 +18,6 @@ class ParseError(Exception): # custom error class
     def __init__(self, message: str):
         self.message = message
         super().__init__(self.message)
-
-# For refrence, all of the organic chemistry in the comments
-# will be according to IUPAC nomenclature.
 
 def quantify(n: int):
     if n == 1: return '1st'
