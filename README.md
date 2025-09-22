@@ -52,8 +52,8 @@ my_molecule = chemical_renderer.Molecule('propene')
 ```
 
 
-Once your molecule is parsed, you can <del>render them into SVGs</del> (not supported yet 😅)
-or get a simple description with the `description` method
+Once your molecule is parsed, you can render them into SVGs using the `render` method.
+You can also get a simple description with the `description` method
 
 ### Example
 ```python
@@ -63,6 +63,8 @@ print(my_molecule.description())
 
 # Outputs: hex-2,4-ene is an alkene with a length of 6 and has 2 double bonds between
 # 		   the (2 and 3 locants), (4 and 5 locants).
+
+my_molecule.render('my_molecule.svg') # saves an svg of 'hex-2,4-ene' in 'my_molecule.svg'
 ```
 
 
@@ -79,8 +81,6 @@ but for major changes, please open an issue to discuss what you would like to ch
 
 There is a lot of room for improvement to this project, future improvements include but
 are not limited to:
-
- -	actually rendering the molecules into SVGs
 
  -	parsing branches (and sub-branchs)
 
