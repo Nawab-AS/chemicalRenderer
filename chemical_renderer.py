@@ -65,7 +65,8 @@ class Molecule:
         it dynamically calls '_parse_<chain type>' (replace '<chain type>' with
         the actual chain type)
         """
-
+        self.chain_type = None
+        
         for type, ending in chain_endings.items():
             if self.name.endswith(ending):
                 self.chain_type = type
