@@ -67,6 +67,10 @@ print(my_molecule.description())
 my_molecule.render('my_molecule.svg') # saves an svg of 'hex-2,4-ene' in 'my_molecule.svg'
 ```
 
+## Screenshot
+
+![hex-2-ene](https://ec52f53a29e871d45d4f0e4c2c3cc187.r2.cloudflarestorage.com/siege-mahadk/ryxm7iyhxfein69zxgp5fjdgmkhr?response-content-disposition=inline%3B%20filename%3D%22Screen%20Shot%202025-10-07%20at%2012.02.48%20AM.png%22%3B%20filename%2A%3DUTF-8%27%27Screen%2520Shot%25202025-10-07%2520at%252012.02.48%2520AM.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d7cf99256938357bf3eaa33a12e24908%2F20251007%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251007T040558Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=79b09bb876ea32df113bd9f69fe5800b3fe6de1382615de5587b33ed8592e35a)
+
 
 ## Contributing
 
@@ -87,3 +91,4 @@ are not limited to:
  -	support for other chain types (alcohols, aldehydes, ketones, carboxylic acids, and amines)
 
  -	turning this into an API (and monetize)?
+
