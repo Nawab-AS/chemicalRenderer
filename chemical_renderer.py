@@ -205,7 +205,7 @@ class Molecule:
             double_bond.append(f"({pos} and {pos + 1} locants)")
 
         return f"{self.name} is an alkene with a length of {self.chain_length} " \
-            + f"and has {len(double_bond)} double bond{"" if len(double_bond)==0 else "s"} " \
+            + f"and has {len(double_bond)} double bond(s) " \
             + f"between the {", ".join(double_bond)}."
 
 
