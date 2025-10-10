@@ -1,7 +1,7 @@
 import chemical_renderer
 
 while True:
-	name = input('enter a organic chemical name or type exit: ')
+	name = input('\nenter a organic chemical name or type exit: ')
 	if name == "exit":
 		break
 	try:

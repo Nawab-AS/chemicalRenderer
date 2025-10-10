@@ -206,7 +206,7 @@ class Molecule:
 
         return f"{self.name} is an alkene with a length of {self.chain_length} " \
             + f"and has {len(double_bond)} double bond(s) " \
-            + f"between the {", ".join(double_bond)}."
+            + f"between the {', '.join(double_bond)}."
 
 
     def _describe_alkyne(self):
@@ -218,8 +218,8 @@ class Molecule:
             triple_bond.append(f"({pos} and {pos + 1} locants)")
 
         return f"{self.name} is an alkyne with a length of {self.chain_length} " \
-            + f"and has {len(triple_bond)} triple bond{"" if len(triple_bond)==0 else "s"} " \
-            + f"between the {", ".join(triple_bond)}."
+            + f"and has {len(triple_bond)} triple bond{'' if len(triple_bond)==0 else 's'} " \
+            + f"between the {', '.join(triple_bond)}."
 
 
     # rendering methods
